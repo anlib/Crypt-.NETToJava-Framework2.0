@@ -1,0 +1,16 @@
+<Combine fileversion="1.0" name="asn1" description="">
+  <StartMode startupentry="asn1" single="True">
+    <Execute entry="asn1" type="None" />
+  </StartMode>
+  <Entries>
+    <Entry filename=".\asn1.prjx" />
+  </Entries>
+  <Configurations active="Release">
+    <Configuration name="Release">
+      <Entry name="asn1" configurationname="Release" build="False" />
+    </Configuration>
+    <Configuration name="Debug">
+      <Entry name="asn1" configurationname="Debug" build="False" />
+    </Configuration>
+  </Configurations>
+</Combine>

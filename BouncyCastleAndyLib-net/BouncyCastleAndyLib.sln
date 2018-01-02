@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BouncyCastleAndyLib", "BouncyCastleAndyLib\BouncyCastleAndyLib.csproj", "{3DF83BA5-749A-49E5-B577-26309DD99AEE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3DF83BA5-749A-49E5-B577-26309DD99AEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DF83BA5-749A-49E5-B577-26309DD99AEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DF83BA5-749A-49E5-B577-26309DD99AEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DF83BA5-749A-49E5-B577-26309DD99AEE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

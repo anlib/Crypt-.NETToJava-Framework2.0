@@ -1,0 +1,37 @@
+using System;
+
+namespace Org.BouncyCastle.Asn1
+{
+    /**
+     * A Null object.
+     */
+    public class DerNull
+        : Asn1Null
+    {
+		public static readonly DerNull Instance = null;
+
+		byte[] zeroBytes = new byte[0];
+
+		[Obsolete("Use static Instance object")]
+		public DerNull()
+        {
+        }
+
+		internal override void Encode(
+            DerOutputStream  derOut)
+        {
+            derOut.WriteEncoded(Asn1Tags.Null, zeroBytes);
+        }
+
+		protected override bool Asn1Equals(
+			Asn1Object obj)
+		{
+			return obj is DerNull;
+        }
+
+		protected override int Asn1GetHashCode()
+		{
+            return 0;
+        }
+    }
+}

@@ -1,0 +1,535 @@
+<Project name="asn1" standardNamespace="Org.BouncyCastle.asn1" description="" newfilesearch="None" enableviewstate="True" version="1.1" projecttype="C#">
+
+  <Contents>
+
+    <File name=".\AssemblyInfo.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\package.html" subtype="Code" buildaction="Nothing" dependson="" data="" />
+
+    <File name=".\ASN1Encodable.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\ASN1EncodableVector.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\ASN1InputStream.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\ASN1Null.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\ASN1OctetString.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\ASN1OutputStream.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\ASN1Sequence.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\ASN1Set.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\ASN1TaggedObject.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\BEROctetString.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\BERNull.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\BEROutputStream.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\BERSequence.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\BERSet.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\BERTaggedObject.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\DERApplicationSpecific.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\DERBitString.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\DERBMPString.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\DERBoolean.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\DEREnumerated.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\DERGeneralizedTime.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\DERGeneralString.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\DERIA5String.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\DerInteger.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\DERNull.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\DERNumericString.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\ASN1Object.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\DerObjectIdentifier.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\DEROctetString.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\DEROutputStream.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\DERPrintableString.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\DERSequence.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\DERSet.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\DERString.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\DERT61String.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\DERTaggedObject.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\DERTags.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\DERUniversalString.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\DERUnknownTag.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\DERUTCTime.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\DERUTF8String.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\DERVisibleString.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\OidTokenizer.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\util\FilterStream.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\TODO.txt" subtype="Code" buildaction="Nothing" dependson="" data="" />
+
+    <File name=".\test" subtype="Directory" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\test\X509NameTest.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\test\BitStringTest.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\test\CertificateTest.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\test\EncryptedPrivateKeyInfoTest.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\test\EqualsAndHashCodeTest.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\test\GeneralizedTimeTest.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\test\OidTest.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\test\package.html" subtype="Code" buildaction="Nothing" dependson="" data="" />
+
+    <File name=".\test\Pkcs10Test.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\test\RegressionTest.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\pkcs\PkcsObjectIdentifiers.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\x509\KeyUsage.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\pkcs\CertificationRequest.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\pkcs\CertificationRequestInfo.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\x509\AlgorithmIdentifier.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\x509\SubjectPublicKeyInfo.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\x509\X509Name.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\x509\X509DefaultEntryConverter.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\x509\X509NameEntryConverter.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\x509\X509NameTokenizer.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\pkcs\EncryptedPrivateKeyInfo.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\util\ASN1Dump.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\x509" subtype="Directory" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\pkcs" subtype="Directory" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\util" subtype="Directory" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\x509\AttCertIssuer.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\x509\AttCertValidityPeriod.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\x509\AttributeCertificate.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\x509\AttributeCertificateInfo.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\x509\AuthorityInformationAccess.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\x509\AuthorityKeyIdentifier.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\x509\BasicConstraints.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\x509\CertificateList.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\x509\CertificatePolicies.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\x509\CertPolicyId.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\x509\CRLDistPoint.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\x509\CRLNumber.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\x509\CRLReason.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\x509\DigestInfo.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\x509\DisplayText.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\x509\DistributionPoint.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\x509\DistributionPointName.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\x509\DSAParameter.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\x509\ExtendedKeyUsage.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\x509\GeneralName.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\x509\GeneralNames.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\x509\GeneralSubtree.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\x509\Holder.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\x509\IssuerSerial.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\x509\IssuingDistributionPoint.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\x509\KeyPurposeId.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\x509\NameConstraints.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\x509\NoticeReference.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\x509\ObjectDigestInfo.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\x509\package.html" subtype="Code" buildaction="Nothing" dependson="" data="" />
+
+    <File name=".\x509\PolicyInformation.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\x509\PolicyMappings.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\x509\PolicyQualifierId.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\x509\PolicyQualifierInfo.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\x509\ReasonFlags.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\x509\RSAPublicKeyStructure.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\x509\SubjectKeyIdentifier.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\x509\TBSCertificateStructure.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\x509\TBSCertList.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\x509\Time.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\x509\UserNotice.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\x509\V1TBSCertificateGenerator.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\x509\V2Form.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\x509\V2TBSCertListGenerator.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\x509\V3TBSCertificateGenerator.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\x509\X509CertificateStructure.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\x509\X509Extension.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\x509\X509Extensions.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\x509\X509ObjectIdentifiers.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\pkcs\Attr.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\pkcs\AuthenticatedSafe.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\pkcs\CertBag.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\pkcs\ContentInfo.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\pkcs\DHParameter.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\pkcs\EncryptedData.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\pkcs\EncryptionScheme.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\pkcs\IssuerAndSerialNumber.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\pkcs\KeyDerivationFunc.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\pkcs\MacData.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\pkcs\package.html" subtype="Code" buildaction="Nothing" dependson="" data="" />
+
+    <File name=".\pkcs\PbeS2Algorithms.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\pkcs\PbeS2Parameters.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\pkcs\PBKDF2Params.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\pkcs\Pfx.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\pkcs\Pkcs12PbeParams.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\pkcs\PrivateKeyInfo.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\pkcs\RC2CBCParameter.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\pkcs\RSAPrivateKeyStructure.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\pkcs\SafeBag.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\pkcs\SignedData.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\pkcs\SignerInfo.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\cms" subtype="Directory" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\x9" subtype="Directory" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\cms\Attr.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\cms\AttributeTable.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\cms\CMSAttributes.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\cms\CMSObjectIdentifiers.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\cms\CompressedData.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\cms\ContentInfo.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\cms\EncryptedContentInfo.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\cms\EnvelopedData.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\cms\IssuerAndSerialNumber.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\cms\KEKIdentifier.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\cms\KEKRecipientInfo.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\cms\KeyAgreeRecipientInfo.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\cms\KeyTransRecipientInfo.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\cms\OriginatorIdentifierOrKey.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\cms\OriginatorInfo.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\cms\OriginatorPublicKey.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\cms\OtherKeyAttribute.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\cms\OtherRecipientInfo.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\cms\package.html" subtype="Code" buildaction="Nothing" dependson="" data="" />
+
+    <File name=".\cms\PasswordRecipientInfo.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\cms\RecipientIdentifier.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\cms\RecipientInfo.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\cms\RecipientKeyIdentifier.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\cms\SignedData.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\cms\SignerIdentifier.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\cms\SignerInfo.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\cms\Time.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\x9\KeySpecificInfo.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\x9\OtherInfo.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\x9\package.html" subtype="Code" buildaction="Nothing" dependson="" data="" />
+
+    <File name=".\x9\X9Curve.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\x9\X9ECParameters.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\x9\X9ECPoint.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\x9\X9FieldElement.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\x9\X9FieldID.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\x9\X9ObjectIdentifiers.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\x9\X962NamedCurves.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\x9\X962Parameters.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\util\package.html" subtype="Code" buildaction="Nothing" dependson="" data="" />
+
+    <File name=".\util\Dump.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\misc" subtype="Directory" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\nist" subtype="Directory" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\ocsp" subtype="Directory" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\oiw" subtype="Directory" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\sec" subtype="Directory" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\smime" subtype="Directory" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\teletrust" subtype="Directory" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\misc\Cast5CBCParameters.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\misc\IDEACBCPar.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\misc\MiscObjectIdentifiers.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\misc\NetscapeCertType.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\misc\NetscapeRevocationURL.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\misc\package.html" subtype="Code" buildaction="Nothing" dependson="" data="" />
+
+    <File name=".\misc\VerisignCzagExtension.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\nist\NISTObjectIdentifiers.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\ocsp\BasicOcspResponse.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\ocsp\CertID.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\ocsp\CertStatus.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\ocsp\CrlID.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\ocsp\OcspObjectIdentifiers.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\ocsp\OcspRequest.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\ocsp\OcspResponse.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\ocsp\OcspResponseStatus.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\ocsp\package.html" subtype="Code" buildaction="Nothing" dependson="" data="" />
+
+    <File name=".\ocsp\Request.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\ocsp\ResponderID.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\ocsp\ResponseBytes.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\ocsp\ResponseData.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\ocsp\RevokedInfo.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\ocsp\ServiceLocator.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\ocsp\Signature.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\ocsp\SingleResponse.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\ocsp\TBSRequest.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\oiw\ElGamalParameter.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\oiw\OIWObjectIdentifiers.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\oiw\package.html" subtype="Code" buildaction="Nothing" dependson="" data="" />
+
+    <File name=".\sec\ECPrivateKeyStructure.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\sec\package.html" subtype="Code" buildaction="Nothing" dependson="" data="" />
+
+    <File name=".\smime\package.html" subtype="Code" buildaction="Nothing" dependson="" data="" />
+
+    <File name=".\smime\SMIMEAttributes.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\smime\SMIMECapabilities.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\smime\SMIMECapabilitiesAttribute.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\smime\SMIMECapability.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\smime\SMIMECapabilityVector.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\smime\SMIMEEncryptionKeyPreferenceAttribute.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\teletrust\TeleTrusTObjectIdentifiers.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\test\CMSTest.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\test\GenerationTest.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\test\Pkcs12Test.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\test\OcspTest.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\test\X9Test.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\test\MiscTest.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+    <File name=".\test\SMIMETest.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+
+  </Contents>
+
+  <References>
+
+    <Reference type="Gac" refto="nunit.framework, Version=2.2.0.0, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77" localcopy="True" />
+
+    <Reference type="Project" refto="util" localcopy="True" />
+
+    <Reference type="Project" refto="security" localcopy="True" />
+
+    <Reference type="Project" refto="math" localcopy="True" />
+
+    <Reference type="Project" refto="crypto" localcopy="True" />
+
+  </References>
+
+  <DeploymentInformation target="" script="" strategy="File" />
+
+  <Configuration runwithwarnings="True" name="Release">
+
+    <CodeGeneration runtime="MsNet" compiler="Csc" compilerversion="" warninglevel="4" nowarn="" includedebuginformation="False" optimize="True" unsafecodeallowed="False" Generateoverflowchecks="False" mainclass="" target="Library" definesymbols="" Generatexmldocumentation="False" win32Icon="" noconfig="False" nostdlib="False" />
+
+    <Execution commandlineparameters="" consolepause="False" />
+
+    <Output directory="..\bin\Release" assembly="ASN1" executeScript="" executeBeforeBuild="" executeAfterBuild="" executeBeforeBuildArguments="" executeAfterBuildArguments="" />
+
+  </Configuration>
+
+  <Configurations active="Release">
+
+    <Configuration runwithwarnings="True" name="Debug">
+
+      <CodeGeneration runtime="MsNet" compiler="Csc" compilerversion="Standard" warninglevel="4" nowarn="" includedebuginformation="True" optimize="False" unsafecodeallowed="False" Generateoverflowchecks="True" mainclass="" target="Library" definesymbols="" Generatexmldocumentation="False" win32Icon="" noconfig="False" nostdlib="False" />
+
+      <Execution commandlineparameters="" consolepause="False" />
+
+      <Output directory="..\bin\Debug" assembly="ASN1" executeScript="" executeBeforeBuild="" executeAfterBuild="" executeBeforeBuildArguments="" executeAfterBuildArguments="" />
+
+    </Configuration>
+
+    <Configuration runwithwarnings="True" name="Release">
+
+      <CodeGeneration runtime="MsNet" compiler="Csc" compilerversion="" warninglevel="4" nowarn="" includedebuginformation="False" optimize="True" unsafecodeallowed="False" Generateoverflowchecks="False" mainclass="" target="Library" definesymbols="" Generatexmldocumentation="False" win32Icon="" noconfig="False" nostdlib="False" />
+
+      <Execution commandlineparameters="" consolepause="False" />
+
+      <Output directory="..\bin\Release" assembly="ASN1" executeScript="" executeBeforeBuild="" executeAfterBuild="" executeBeforeBuildArguments="" executeAfterBuildArguments="" />
+
+    </Configuration>
+
+  </Configurations>
+
+</Project>
